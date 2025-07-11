@@ -1,15 +1,34 @@
+
+
 class Hero:
+
+    # Конструктор класса
     def __init__(self, name, lvl, hp):
+        # атрибуты класса
         self.name = name
         self.lvl = lvl
         self.hp = hp
 
-    def introduse(self):
-        return print (f"привет меня зовут {self.name}")
+    # Метод класса
+    def introduce(self):
+        return print(f"привет меня зовут {self.name}")
+
+    # def action(self, ):
 
 
-kirito = Hero("Kirito", 100, 1000)
+asuna = Hero("Asuna", 10, 100)
 
-kirito.introduse()
+# Объект|экземпляр  класса
+# kirito = Hero("Kirito", 100, 1000)
+#
+# kirito.introduce()
+# asuna.introduce()
+# print(kirito.name, kirito.lvl)
+# print(asuna.name, asuna.lvl)
 
-print(kirito.hp)
+
+
+
+
+print(type(asuna))
+# print(type(some_text))
