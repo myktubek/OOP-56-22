@@ -30,32 +30,32 @@ john = BankAccount("John", 1000, 123321)
 # john.reset_pass()
 
 # Абстракция
-
-from abc import ABC, abstractmethod
-
-
-# Абстрактный класс
-class Animal(ABC):
-
-    @abstractmethod
-    def step(self):
-        pass
-
-    @abstractmethod
-    def make_sound(self):
-        pass
-
-class Dog(Animal):
-
-    def __init__(self, nik):
-        self.nik = nik
-
-    def make_sound(self):
-        return print(f"{self.nik} Gaf Gaf")
-
-    def step(self):
-        return print(f"step")
-
-sharik = Dog("Sharik")
-
-sharik.make_sound()
+#
+# from abc import ABC, abstractmethod
+#
+#
+# # Абстрактный класс
+# class Animal(ABC):
+#
+#     @abstractmethod
+#     def step(self):
+#         pass
+#
+#     @abstractmethod
+#     def make_sound(self):
+#         pass
+#
+# class Dog(Animal):
+#
+#     def __init__(self, nik):
+#         self.nik = nik
+#
+#     def make_sound(self):
+#         return print(f"{self.nik} Gaf Gaf")
+#
+#     def step(self):
+#         return print(f"step")
+#
+# sharik = Dog("Sharik")
+#
+# sharik.make_sound()
